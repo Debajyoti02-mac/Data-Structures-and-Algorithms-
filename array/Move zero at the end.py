@@ -1,6 +1,8 @@
 nums = [0, 3, 0, 2, 5, 0, 1] 
 seen = []
 state = 0 
+## Move zero at the end 
+
 for i in range(len(nums)):
     if nums[i]!=0:
         seen.append(nums[i])
