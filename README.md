@@ -156,4 +156,8 @@ git push
 ```text
 > END OF FILE
 > NEXT ACTION: KEEP SOLVING.
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 5c4417d (day 4)
