@@ -1,4 +1,4 @@
-text = "aabbcc"
+text = "swiss"
 
 def freq_count(text):
     seen = {}
