@@ -1,163 +1,215 @@
-<div align="center">
-
-# 🧠 DSA JOURNEY
-
-**Learn → Implement → Analyze**
-
-![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
-![VCS](https://img.shields.io/badge/Git-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Status](https://img.shields.io/badge/Status-ACTIVE-2ea44f?style=for-the-badge)
-
-```text
-> SYSTEM   : Daily Algorithm Practice
-> LANGUAGE : Python
-> MODE     : Learn → Implement → Analyze
-> STATUS   : ACTIVE ●
+::: {align="center"}
+``` text
+┌───────────────────────────────────────────────┐
+│                                               │
+│             D S A   J O U R N E Y             │
+│                                               │
+│        LEARN  ->  IMPLEMENT  ->  ANALYZE       │
+│                                               │
+└───────────────────────────────────────────────┘
 ```
 
-</div>
+![Python](https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=00FF88)
+![DSA](https://img.shields.io/badge/DSA_PRACTICE-000000?style=for-the-badge&logo=leetcode&logoColor=FFA116)
+![GitHub](https://img.shields.io/badge/GIT%20%2F%20GITHUB-000000?style=for-the-badge&logo=github&logoColor=00FF88)
+![Status](https://img.shields.io/badge/STATUS-ACTIVE-000000?style=for-the-badge&labelColor=000000&color=00FF88)
+:::
 
----
+``` text
+┌─ SYSTEM STATUS ─────────────────────────────────
+│  LANGUAGE : Python
+│  MODE     : Learn -> Implement -> Analyze
+│  ROUTINE  : Daily algorithm practice
+│  STATUS   : ● ACTIVE
+└─────────────────────────────────────────────────
+```
 
-## 📖 `/about`
+> **Theme note:** GitHub controls the actual page background through the
+> viewer's theme. This README uses a black terminal aesthetic with
+> monospace panels, black badges, and green accents.
 
-A daily journey to build strong **Data Structures and Algorithms** fundamentals through consistent practice, implementation, debugging, and problem-solving.
+------------------------------------------------------------------------
 
-> The goal is not just to solve problems, but to understand the logic behind them and learn to approach unfamiliar problems independently.
+## `01 / ABOUT`
 
----
+A daily practice repository for building strong **Data Structures and
+Algorithms (DSA)** fundamentals with Python.
 
-## 🎯 `/objectives`
+The goal is not just to increase the solved count. The goal is to
+understand the logic, debug mistakes, recognize patterns, and solve
+unfamiliar problems independently.
 
-| | Objective |
-|:-:|---|
-| 🧩 | Build strong problem-solving fundamentals |
-| ⏱️ | Understand time and space complexity |
-| 🏗️ | Implement data structures from scratch |
-| 🔍 | Recognize patterns and choose appropriate approaches |
-| 🟩 | Maintain a consistent GitHub contribution history |
-| 📈 | Track mistakes, improvements, and progress |
+``` text
+$ objective
+> Build reasoning, not memorized code.
+```
 
----
+## `02 / OBJECTIVES`
 
-## 🛠️ `/tech-stack`
+     ID    Objective
+  -------- --------------------------------------------------------
+   `[01]`  Strengthen problem-solving fundamentals
+   `[02]`  Understand time and space complexity
+   `[03]`  Implement data structures from scratch
+   `[04]`  Recognize patterns and choose suitable approaches
+   `[05]`  Test edge cases and debug mistakes
+   `[06]`  Maintain a consistent GitHub contribution history
+   `[07]`  Track progress and improve independent problem-solving
 
-| Category | Tool |
-|---|---|
-| **Language** | Python |
-| **Platform** | LeetCode / DSA practice |
-| **Version Control** | Git & GitHub |
+## `03 / TECH STACK`
 
----
+``` text
+LANGUAGE         Python
+PRACTICE         DSA problems / LeetCode-style exercises
+VERSION CONTROL  Git
+REMOTE           GitHub
+```
 
-## 🗺️ `/learning-path`
+## `04 / LEARNING PATH`
 
-```mermaid
-flowchart LR
-    A[Arrays] --> B[Strings] --> C[Hash Maps]
-    C --> D[Sliding Window] --> E[Two Pointers]
-    E --> F[Sorting & Binary Search] --> G[Stack & Queue]
-    G --> H[Linked Lists] --> I[Trees & Graphs] --> J[Dynamic Programming]
+``` mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#101010', 'primaryTextColor': '#00ff88', 'primaryBorderColor': '#00ff88', 'lineColor': '#00ff88', 'secondaryColor': '#151515', 'tertiaryColor': '#080808', 'fontFamily': 'monospace'}}}%%
+flowchart TD
+    A["Arrays"] --> B["Strings"]
+    B --> C["Hash Maps"]
+    C --> D["Sliding Window"]
+    D --> E["Two Pointers"]
+    E --> F["Sorting & Binary Search"]
+    F --> G["Stack & Queue"]
+    G --> H["Linked Lists"]
+    H --> I["Trees & Graphs"]
+    I --> J["Dynamic Programming"]
 
-    classDef progress fill:#2ea44f,stroke:#1a7f37,color:#fff
-    classDef learning fill:#f0ad4e,stroke:#c77c0e,color:#000
-    classDef upcoming fill:#6e7781,stroke:#424a53,color:#fff
-    class A,B,C progress
+    classDef active fill:#101010,stroke:#00ff88,color:#00ff88,stroke-width:2px
+    classDef learning fill:#151515,stroke:#f0ad4e,color:#f0ad4e,stroke-width:2px
+    classDef upcoming fill:#080808,stroke:#555,color:#aaa
+    class A,B,C active
     class D,E learning
     class F,G,H,I,J upcoming
 ```
 
-| Topic | Progress | Status |
-|---|---|---|
-| Arrays | `██████░░░░` | 🟢 In progress |
-| Strings | `█████░░░░░` | 🟢 In progress |
-| Hash Maps | `████░░░░░░` | 🟢 In progress |
-| Sliding Window | `██░░░░░░░░` | 🟡 Learning |
-| Two Pointers | `██░░░░░░░░` | 🟡 Learning |
-| Sorting & Binary Search | `░░░░░░░░░░` | ⚪ Upcoming |
-| Stack & Queue | `░░░░░░░░░░` | ⚪ Upcoming |
-| Linked Lists | `░░░░░░░░░░` | ⚪ Upcoming |
-| Trees & Graphs | `░░░░░░░░░░` | ⚪ Upcoming |
-| Dynamic Programming | `░░░░░░░░░░` | ⚪ Upcoming |
+  Topic                     Status          Focus
+  ------------------------- --------------- ---------------------------------------
+  Arrays                    `IN PROGRESS`   Loops, conditions, and array patterns
+  Strings                   `IN PROGRESS`   Character operations and substrings
+  Hash Maps                 `IN PROGRESS`   Frequency counting and lookup
+  Sliding Window            `LEARNING`      Maintaining a valid window
+  Two Pointers              `LEARNING`      Practice and pattern recognition
+  Sorting & Binary Search   `UPCOMING`      ---
+  Stack & Queue             `UPCOMING`      ---
+  Linked Lists              `UPCOMING`      ---
+  Trees & Graphs            `UPCOMING`      ---
+  Dynamic Programming       `UPCOMING`      ---
 
----
+## `05 / DAILY LOG`
 
-## 📅 `/daily-log`
+Problems are practised one at a time. Each session focuses on
+understanding the approach, implementing it, testing it, and reviewing
+mistakes.
 
-Problems are added daily with their implementations and relevant notes.
+  ------------------------------------------------------------------------
+  Date                            Problems completed Topics / notes
+  --------------------- ---------------------------- ---------------------
+  2026-10-18                                       7 Strings, sets,
+                                                     frequency maps,
+                                                     unique/repeated
+                                                     characters, and
+                                                     sliding-window
+                                                     practice
 
-| Day | Problems | Topics |
-|:-:|---|---|
-| Day 01 → | Daily submissions | Arrays, strings, hashing, and more |
+  ------------------------------------------------------------------------
 
-*The log will be updated as new problems are completed.*
+*Session counts track problems practised, including problems completed
+with guidance.*
 
----
+## `06 / REPOSITORY STRUCTURE`
 
-## 📂 `/repository-structure`
-
-```text
+``` text
 DSA-Journey/
-├── 📁 Arrays/
-├── 📁 Strings/
-├── 📁 Hashing/
-├── 📁 Sliding_Window/
-├── 📁 Two_Pointers/
-├── 📁 Sorting/
-├── 📁 Binary_Search/
-├── 📁 Stack_Queue/
-├── 📁 Linked_List/
-├── 📁 Trees/
-├── 📁 Graphs/
-├── 📁 Dynamic_Programming/
-└── 📄 README.md
+├── Arrays/
+├── Strings/
+├── Hashing/
+├── Sliding_Window/
+├── Two_Pointers/
+├── Sorting/
+├── Binary_Search/
+├── Stack_Queue/
+├── Linked_List/
+├── Trees/
+├── Graphs/
+├── Dynamic_Programming/
+└── README.md
 ```
 
----
+## `07 / WORKFLOW`
 
-## 🔄 `/workflow`
-
-```mermaid
-flowchart LR
-    A[1. Understand] --> B[2. Identify approach] --> C[3. Implement]
-    C --> D[4. Test edge cases] --> E[5. Analyze complexity] --> F[6. Commit & push]
-    F -. next problem .-> A
+``` text
+[01] UNDERSTAND THE PROBLEM
+          |
+          v
+[02] IDENTIFY AN APPROACH
+          |
+          v
+[03] IMPLEMENT IN PYTHON
+          |
+          v
+[04] TEST EDGE CASES
+          |
+          v
+[05] ANALYZE TIME & SPACE
+          |
+          v
+[06] COMMIT & PUSH
+          |
+          └──────────────> NEXT PROBLEM
 ```
 
----
+## `08 / PRINCIPLES`
 
-## 🧭 `/principles`
+``` text
+[+] Consistency over intensity
+[+] Understand before memorizing
+[+] Debug mistakes instead of hiding them
+[+] Prefer clear logic over unnecessary complexity
+[+] Learn independently, one problem at a time
+[+] Use hints to develop reasoning, not skip it
+```
 
-- ✅ Consistency over intensity
-- ✅ Understand before memorizing
-- ✅ Debug mistakes instead of hiding them
-- ✅ Prefer clear logic over unnecessary complexity
-- ✅ Learn to solve independently, one problem at a time
+## `09 / GIT WORKFLOW`
 
----
-
-## 💬 `/commit-convention`
-
-```bash
+``` bash
 git add .
-git commit -m "solve: array problem 079"
-git push
+git commit -m "solve: describe the problem"
+git push origin main
 ```
 
----
+Example:
 
-## 🚀 `/current-status`
-
-> **Mission:** Become confident in solving DSA problems independently.
->
-> **Rule:** Every problem is an opportunity to improve reasoning, not just increase the solved count.
-
-```text
-> END OF FILE
-> NEXT ACTION: KEEP SOLVING.
-<<<<<<< HEAD
+``` bash
+git add .
+git commit -m "solve: longest substring without repeats"
+git push origin main
 ```
-=======
+
+## `10 / CURRENT MISSION`
+
+``` text
+┌─ MISSION ───────────────────────────────────────
+│  Become confident at solving DSA problems
+│  independently.
+│
+│  RULE
+│  Every problem improves reasoning, not just
+│  the solved count.
+│
+│  NEXT ACTION
+│  Practise. Review mistakes. Repeat with purpose.
+└─────────────────────────────────────────────────
 ```
->>>>>>> 5c4417d (day 4)
+
+::: {align="center"}
+``` text
+$ exit
+[ SESSION ACTIVE ]
+```
+:::
