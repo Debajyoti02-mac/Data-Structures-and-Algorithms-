@@ -1,7 +1,6 @@
 
 # One using simple list : >>
 nums = [3, 5, 3, 8, 5, 2, 8, 9]
-hash = {}
 count= 0 
 get_element = 0
 seen = []
