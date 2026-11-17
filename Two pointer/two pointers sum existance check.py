@@ -1,5 +1,5 @@
 nums = [1, 2, 3, 4, 5, 6, 7, 8]
-target = 56
+target = 4
 
 # Those both are for the movement of the pointers 
 left = 0 
